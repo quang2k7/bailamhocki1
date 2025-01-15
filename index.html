@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giới thiệu về ChatGPT</title>
+    <style>
+        /* Reset các margin và padding mặc định */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Đặt font và màu sắc cơ bản cho trang */
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #74ebd5 0%, #9face6 100%);
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Thanh tiêu đề */
+        header {
+            background: linear-gradient(90deg, rgba(255, 105, 180, 1) 0%, rgba(0, 204, 255, 1) 100%);
+            color: white;
+            padding: 100px 0;
+            text-align: center;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+            position: relative;
+            border-radius: 0 0 50% 50%;
+        }
+
+        header h1 {
+            font-size: 3.8em;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+        }
+
+        header p {
+            font-size: 1.5em;
+            margin-bottom: 30px;
+        }
+
+        .cta-button {
+            background-color: #ff6347;
+            color: white;
+            padding: 15px 30px;
+            font-size: 1.2em;
+            border-radius: 30px;
+            text-decoration: none;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease, background-color 0.3s ease;
+        }
+
+        .cta-button:hover {
+            background-color: #ff4500;
+            transform: scale(1.1);
+        }
+
+        section {
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        h2 {
+            font-size: 2.8em;
+            color: #333;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        p {
+            font-size: 1.2em;
+            max-width: 900px;
+            margin: 0 auto;
+            margin-bottom: 40px;
+            color: #444;
+            line-height: 1.8;
+        }
+
+        .features, .examples {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+
+        .feature, .example {
+            background-color: #ffffff;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            text-align: left;
+        }
+
+        .feature:hover, .example:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+        }
+
+        .feature h3, .example h3 {
+            font-size: 1.8em;
+            margin-bottom: 15px;
+            color: #ff6347;
+        }
+
+        .feature p, .example p {
+            font-size: 1.1em;
+            color: #555;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 25px 20px;
+            margin-top: 60px;
+            font-size: 1.1em;
+        }
+
+        /* Responsive design */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2.8em;
+            }
+
+            header p {
+                font-size: 1.2em;
+            }
+
+            .cta-button {
+                font-size: 1em;
+                padding: 12px 25px;
+            }
+
+            h2 {
+                font-size: 2.5em;
+            }
+
+            .feature, .example {
+                padding: 25px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Chào mừng đến với ChatGPT</h1>
+        <p>Khám phá sức mạnh của trí tuệ nhân tạo trong việc giải quyết vấn đề và sáng tạo nội dung.</p>
+        <a href="about.html" class="cta-button">Tìm hiểu thêm về ChatGPT</a>
+    </header>
+
+    <section>
+        <h2>ChatGPT là gì?</h2>
+        <p>ChatGPT là một mô hình trí tuệ nhân tạo mạnh mẽ, có khả năng hiểu và tạo ra văn bản tự nhiên. Nó có thể giúp bạn giải quyết vấn đề, học hỏi kiến thức mới, sáng tạo nội dung và nhiều ứng dụng khác.</p>
+    </section>
+
+    <section>
+        <h2>Tính năng nổi bật của ChatGPT</h2>
+        <div class="features">
+            <div class="feature">
+                <h3>Giao tiếp tự nhiên</h3>
+                <p>ChatGPT hiểu và trả lời các câu hỏi của bạn một cách chính xác và tự nhiên, giúp bạn dễ dàng giao tiếp với AI.</p>
+            </div>
+            <div class="feature">
+                <h3>Hỗ trợ học tập</h3>
+                <p>Giúp bạn giải đáp thắc mắc, giải thích các khái niệm học thuật và cung cấp thông tin chi tiết.</p>
+            </div>
+            <div class="feature">
+                <h3>Sáng tạo nội dung</h3>
+                <p>ChatGPT có thể giúp bạn tạo ra các bài viết, ý tưởng sáng tạo, hoặc thậm chí là văn bản cho dự án của bạn.</p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Ứng dụng thực tế của ChatGPT</h2>
+        <div class="examples">
+            <div class="example">
+                <h3>Hỗ trợ khách hàng</h3>
+                <p>ChatGPT có thể giúp trả lời các câu hỏi của khách hàng, cung cấp hỗ trợ nhanh chóng và hiệu quả.</p>
+            </div>
+            <div class="example">
+                <h3>Giải trí</h3>
+                <p>Khám phá các câu chuyện thú vị, trò chơi đố vui, hoặc nhận các gợi ý về sách, phim và âm nhạc.</p>
+            </div>
+            <div class="example">
+                <h3>Học ngôn ngữ</h3>
+                <p>Hãy để ChatGPT giúp bạn luyện ngữ pháp, từ vựng và cải thiện kỹ năng giao tiếp trong nhiều ngôn ngữ khác nhau.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 ChatGPT. Mọi quyền lợi được bảo lưu.</p>
+    </footer>
+
+</body>
+</html>
